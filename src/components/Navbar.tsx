@@ -38,10 +38,10 @@ export default function Navbar() {
           <Image
             src="/images/coredeck-logo.png"
             alt="CoreDeck logo"
-            width={140}
-            height={36}
+            width={700}
+            height={180}
             priority
-            className="h-9 w-auto"
+            className="h-44 w-auto"
           />
         </a>
 
