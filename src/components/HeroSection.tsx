@@ -27,7 +27,7 @@ export default function HeroSection() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden pt-24 pb-16 sm:pt-32 sm:pb-24 lg:pt-40 lg:pb-32"
+      className="relative overflow-hidden pt-32 pb-16 sm:pt-36 sm:pb-24 lg:pt-44 lg:pb-32"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -40,7 +40,7 @@ export default function HeroSection() {
           <div className="text-center lg:text-left">
             <motion.h1
               variants={fadeLeft}
-              className="font-display text-4xl font-extrabold tracking-tight text-navy sm:text-5xl lg:text-6xl"
+              className="font-display text-3xl font-extrabold tracking-tight text-navy sm:text-5xl lg:text-6xl"
             >
               One Dashboard.
               <br />
@@ -49,7 +49,7 @@ export default function HeroSection() {
 
             <motion.p
               variants={fadeLeft}
-              className="mt-6 text-lg leading-8 text-charcoal-light sm:text-xl"
+              className="mt-4 text-base leading-7 text-charcoal-light sm:mt-6 sm:text-lg sm:leading-8 lg:text-xl"
             >
               CoreDeck brings your Canvas deadlines, recruiter messages, work
               schedule, and email into a single AI-prioritized command center —
@@ -58,7 +58,7 @@ export default function HeroSection() {
 
             <motion.div
               variants={fadeLeft}
-              className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start"
+              className="mt-6 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:gap-4 sm:justify-center lg:justify-start"
             >
               <motion.a
                 variants={scaleIn}
@@ -76,7 +76,7 @@ export default function HeroSection() {
               </motion.a>
             </motion.div>
 
-            <motion.div variants={fadeLeft} className="mt-8 space-y-1">
+            <motion.div variants={fadeLeft} className="mt-6 sm:mt-8 space-y-1">
               <p className="text-sm font-medium text-charcoal-lighter">
                 Designed for students at FIU, UM, FAU, and Barry University
               </p>

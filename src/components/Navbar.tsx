@@ -38,10 +38,10 @@ export default function Navbar() {
           <Image
             src="/images/coredeck-logo.png"
             alt="CoreDeck logo"
-            width={700}
-            height={180}
+            width={350}
+            height={90}
             priority
-            className="h-44 w-auto"
+            className="h-20 sm:h-22 w-auto"
           />
         </a>
 
@@ -89,7 +89,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="md:hidden fixed inset-0 top-14 bg-surface/95 backdrop-blur-lg z-40"
+            className="md:hidden fixed inset-0 top-24 bg-surface/95 backdrop-blur-lg z-40"
           >
             <div className="flex flex-col items-center gap-6 pt-12">
               {navLinks.map((link) => (

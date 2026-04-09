@@ -18,9 +18,9 @@ export default function Footer() {
             <Image
               src="/images/coredeck-logo.png"
               alt="CoreDeck logo"
-              width={600}
-              height={160}
-              className="h-40 w-auto brightness-0 invert"
+              width={300}
+              height={80}
+              className="h-20 w-auto brightness-0 invert"
             />
             <p className="mt-4 text-sm text-white/70">
               Your Digital Mission Control
